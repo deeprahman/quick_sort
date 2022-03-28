@@ -12,7 +12,7 @@ final class Sort extends AQuickSort
         $this->sort($array, $pivot+1, $end_indx);
     }
 
-    protected function partition(\SplFixedArray  &$array, int $bgn_indx, int $end_indx):int
+    protected function partition(\SplFixedArray  &$array, int $bgn_indx, int $end_indx):int  // BUG: Problem when duplicate items in the array
     {
         $pivot = $array[$bgn_indx];
         $l_indx = $bgn_indx;
