@@ -27,10 +27,10 @@ final class TestSort
     {
         $arr=new \SplFixedArray(4);
 
-        $arr[0] = 1; // TODO: Fix problem when duplicate
-        $arr[1] = 4;
-        $arr[2] = 1; // TODO: Fix problem when duplicate
-        $arr[3] = 3;
+        $arr[0] = 2; 
+        $arr[1] = 1;
+        $arr[2] = 1; 
+        $arr[3] = 0;
 
         return $arr;
 
